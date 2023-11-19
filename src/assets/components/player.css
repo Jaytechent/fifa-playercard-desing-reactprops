@@ -1,0 +1,28 @@
+/* The entire css file is to achieve the cut edge on the card for both left and right side */
+
+.invertedBorderRadius {
+  height: 40px !important;
+
+  display: flex;
+}
+
+/* The left cut out of the card was achieved by this firstcut css properties */
+.firstCut {
+  border: 6px solid white;
+  border-radius: 6rem;
+  width: 6rem;
+  height: 5rem;
+  background-color: white;
+  contain: paint;
+  margin-right: 220px;
+}
+
+/* The right cut out of the card was achieved by this firstcut css properties */
+.secondCut {
+  border: 6px solid white;
+  border-radius: 6rem;
+  width: 6rem;
+  height: 5rem;
+  background-color: white;
+  contain: paint;
+}
